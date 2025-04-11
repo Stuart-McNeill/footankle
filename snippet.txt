@@ -1,0 +1,38 @@
+<model-viewer src="Foot and Ankle.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" exposure="0.82">
+    <button class="Hotspot" slot="hotspot-2" data-position="-0.013961033532839118m 0.01582520741656257m -0.05844601949079373m" data-normal="-0.8764599466723701m -0.47755261564137297m 0.061330752263029885m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Plantar Heel Pain</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.012534925207910608m 0.002063140556566645m -0.09013382754403554m" data-normal="-0.030668930019936834m -0.9770950995163258m -0.2105815358302182m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Fat Pad Syndrome</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.010104320270388108m 0.0398000355120247m -0.10983527346869149m" data-normal="-0.1358958505972613m 0.08625635206774263m -0.9869610729498974m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Achilles Tendinopathy</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.02907003451355361m 0.021623706654350094m 0.06329558331930213m" data-normal="-0.9827424533731955m 0.18102314250680404m 0.038051178890986165m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Hallux Abductovalgus</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.015092809358084207m 0.03633176563108215m 0.06813747473476739m" data-normal="-0.26249962702285995m 0.9227102403748877m 0.28231145587839046m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Hallux Limitus</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.014261545340686771m 0.0021333917626028542m 0.06851023612108001m" data-normal="-0.19018384341018985m -0.9616036609815145m 0.19785981121156745m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Sesamoiditis</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="0.029989686839751457m 0.009141795057285296m 0.07516432761047781m" data-normal="0.2041730353109773m -0.7921258247574879m 0.5751956618440126m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Plantar Digital Neuroma</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="0.05599507649299268m 0.023232522834393365m 0.040382977854191995m" data-normal="0.7104794463301599m 0.7037052258874701m 0.004232186320832144m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Tailor's Bunion</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="-0.01712209456501268m 0.05453008225766354m -0.06533220568513458m" data-normal="-0.9536670611501996m -0.13412594025029262m -0.26931277101005885m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Tibialis Posterior Tendinopathy</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="0.03594089835374459m 0.04731688434087025m -0.07699121477467422m" data-normal="0.9652607684463987m 0.1313839399338416m -0.22585373414165305m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Peroneal Tendinopathy</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="0.010877074682878497m 0.0036635770668031475m 0.07233415079045064m" data-normal="0.12810663908644818m -0.9373864673583034m 0.3238754387654227m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Metatarsalgia</div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="0.012781414953115185m 0.06057368028144672m 0.019630361738108282m" data-normal="0.23121368971501385m 0.8329744248976596m 0.5026866192318856m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Extensor Tendinopathy</div>
+    </button><button class="Hotspot" slot="hotspot-17" data-position="0.025164456743009985m 0.07335756073921695m -0.016655662667186433m" data-normal="0.7341637824039957m 0.5729836941516339m 0.36427081524959626m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Lateral Ankle</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
